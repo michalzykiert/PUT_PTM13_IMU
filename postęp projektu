@@ -1,0 +1,146 @@
+Stan na dzień 25.04.2013: 
+- zainstalowano wirtualny port COM, 
+- uruchomiono na plytce program do komunikacji za pomoca w/w portu,
+- stworzono w C# program testowy sterujacy diodami, ktory wysyla dane przez wirtualny port COM,
+- wszystko dziala poprawnie,
+- jedyny problem to wrzucenie do repozytorium w/w programow przy uzyciu GitGui,
+Nastepny etap:
+- stworzenie projektu wysylajacego dane z plytki
+- stworzenie programu odbierajacego w/w dane
+- wrzucenie efektow pracy przy pomocy GitGui
+
+------------------------------------------------------------------------------------------------------------------------
+Program w C#:
+------------------------------------------------------------------------------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using System.IO.Ports;
+
+namespace COM_USB_wysylanie
+{
+    public partial class Form1 : Form
+    {
+        private static SerialPort port;
+        public Form1()
+        {
+            InitializeComponent();
+            //% create an instance of serial port
+            port = new SerialPort("COM9", 38400, Parity.None, 8, StopBits.One);
+            port.ReadTimeout = 500;
+            port.WriteTimeout = 500;
+
+            //% setup hanshake to enable hardware flow control
+            port.Handshake = Handshake.None;
+
+            port.Open();
+            if (!port.IsOpen)
+                MessageBox.Show("Error", "Cannot open COM port", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            port.Write("3");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            port.Write("4");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            port.Write("5");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            port.Write("6");
+        }
+    }
+}
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------
+program w CocCox uzywajacy wirtulnego portu COM:
+------------------------------------------------------------------------------------------------------------------------
+
+#include <stdio.h>
+#include "stm32f4_discovery.h"
+#include "usbd_cdc_vcp.h"
+
+/* Private macro */
+/* Private variables */
+uint32_t button_sts;
+__ALIGN_BEGIN USB_OTG_CORE_HANDLE  USB_OTG_dev __ALIGN_END;
+uint32_t i = 0;
+/* Private function prototypes */
+/* Private functions */
+
+/**
+**===========================================================================
+**  Main
+**===========================================================================
+*/
+
+int main(void)
+{
+
+  SystemInit();
+
+	STM32F4_Discovery_LEDInit(LED3); //Orange
+	STM32F4_Discovery_LEDInit(LED4); //Green
+	STM32F4_Discovery_LEDInit(LED5); //Red
+	STM32F4_Discovery_LEDInit(LED6); //Blue
+
+	STM32F4_Discovery_PBInit(BUTTON_USER, BUTTON_MODE_GPIO);
+
+	USBD_Init(&USB_OTG_dev,USB_OTG_FS_CORE_ID,&USR_desc,&USBD_CDC_cb,&USR_cb);
+
+	while (1){
+
+		if(usb_cdc_kbhit()){
+			char c, buffer_out[15];
+			c = usb_cdc_getc();
+			switch(c){
+				case '3':
+					STM32F4_Discovery_LEDToggle(LED3);
+					sprintf(buffer_out,"LED%c = %u\r\n",c,GPIO_ReadInputDataBit(GPIOD,LED3_PIN));
+					usb_cdc_printf(buffer_out);
+					break;
+				case '4':
+					STM32F4_Discovery_LEDToggle(LED4);
+					sprintf(buffer_out,"LED%c = %u\r\n",c,GPIO_ReadInputDataBit(GPIOD,LED4_PIN));
+					usb_cdc_printf(buffer_out);
+					break;
+				case '5':
+					STM32F4_Discovery_LEDToggle(LED5);
+					sprintf(buffer_out,"LED%c = %u\r\n",c,GPIO_ReadInputDataBit(GPIOD,LED5_PIN));
+					usb_cdc_printf(buffer_out);
+					break;
+				case '6':
+					STM32F4_Discovery_LEDToggle(LED6);
+					sprintf(buffer_out,"LED%c = %u\r\n",c,GPIO_ReadInputDataBit(GPIOD,LED6_PIN));
+					usb_cdc_printf(buffer_out);
+					break;
+			}
+		}
+
+		button_sts = STM32F4_Discovery_PBGetState(BUTTON_USER);
+
+		if(button_sts){
+			STM32F4_Discovery_LEDOff(LED3);
+			STM32F4_Discovery_LEDOff(LED5);
+			STM32F4_Discovery_LEDOff(LED3);
+			STM32F4_Discovery_LEDOff(LED5);
+		}
+	}
+}
+------------------------------------------------------------------------------------------------------------------------
