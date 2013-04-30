@@ -2,7 +2,7 @@ Stan na dzień 30.04.2013:
 - uruchomino przesylanie danych z IMU przez Virtual Com Port,
 - wszystko z grubsza dziala,
 - problem z timeoutami oraz z opoznieniem przesylania danych przez VCP
-- oczywscie problem z wrzucenie projektu przez Git Gui... może jutro si uda
+- oczywscie problem z wrzucenie projektu przez Git Gui... może jutro sie uda
 
 Stan na dzień 25.04.2013: 
 - zainstalowano wirtualny port COM, 
