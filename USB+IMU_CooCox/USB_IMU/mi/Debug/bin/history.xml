@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=mi.map -O3 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\USB + IMU -TC:\CooCox\CoIDE\configuration\ProgramData\USB + IMU/arm-gcc-link.ld -g">
+      <target file="mi.elf" lastModified="13e587a8c29">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="13e587a6346"/>
+         <source file="..\obj\usb_core.o" lastModified="13e587a661b"/>
+         <source file="..\obj\usbd_usr.o" lastModified="13e587a6704"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="13e587a6852"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="13e587a6916"/>
+         <source file="..\obj\stm32f4_discovery.o" lastModified="13e587a6a11"/>
+         <source file="..\obj\usbd_core.o" lastModified="13e587a6b49"/>
+         <source file="..\obj\main.o" lastModified="13e587a6d10"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="13e587a6e9a"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="13e587a7000"/>
+         <source file="..\obj\printf.o" lastModified="13e587a739a"/>
+         <source file="..\obj\usbd_desc.o" lastModified="13e587a7498"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="13e587a75f2"/>
+         <source file="..\obj\usbd_cdc_vcp.o" lastModified="13e587a772a"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="13e587a783c"/>
+         <source file="..\obj\syscalls.o" lastModified="13e587a79c4"/>
+         <source file="..\obj\usb_bsp.o" lastModified="13e587a7ade"/>
+         <source file="..\obj\usbd_req.o" lastModified="13e587a7c83"/>
+         <source file="..\obj\usb_dcd_int.o" lastModified="13e587a7e18"/>
+         <source file="..\obj\usbd_cdc_core.o" lastModified="13e587a7f4d"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="13e587a80c0"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="13e587a821d"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="13e587a8323"/>
+         <source file="..\obj\misc.o" lastModified="13e587a841c"/>
+         <source file="..\obj\usb_dcd.o" lastModified="13e587a855c"/>
+         <source file="..\obj\usbd_ioreq.o" lastModified="13e587a8656"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="13e587a88a7"/>
+      </target>
+   </processor>
+</history>
