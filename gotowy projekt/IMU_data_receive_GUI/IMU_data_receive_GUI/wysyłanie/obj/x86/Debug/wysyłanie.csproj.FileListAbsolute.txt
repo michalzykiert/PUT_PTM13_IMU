@@ -1,0 +1,18 @@
+C:\Users\MI\AppData\Local\Temporary Projects\wysyłanie\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MI\AppData\Local\Temporary Projects\wysyłanie\obj\x86\Debug\wysyłanie.Form1.resources
+C:\Users\MI\AppData\Local\Temporary Projects\wysyłanie\obj\x86\Debug\wysyłanie.Properties.Resources.resources
+C:\Users\MI\AppData\Local\Temporary Projects\wysyłanie\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\MI\AppData\Local\Temporary Projects\wysyłanie\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\MI\AppData\Local\Temporary Projects\wysyłanie\bin\Debug\wysyłanie.exe
+C:\Users\MI\AppData\Local\Temporary Projects\wysyłanie\bin\Debug\wysyłanie.pdb
+C:\Users\MI\AppData\Local\Temporary Projects\wysyłanie\obj\x86\Debug\wysyłanie.exe
+C:\Users\MI\AppData\Local\Temporary Projects\wysyłanie\obj\x86\Debug\wysyłanie.pdb
+C:\Users\MI\documents\visual studio 2010\Projects\wysyłanie\wysyłanie\obj\x86\Debug\wysyłanie.exe
+C:\Users\MI\documents\visual studio 2010\Projects\wysyłanie\wysyłanie\obj\x86\Debug\wysyłanie.pdb
+C:\Users\MI\documents\visual studio 2010\Projects\wysyłanie\wysyłanie\bin\Debug\wysyłanie.exe
+C:\Users\MI\documents\visual studio 2010\Projects\wysyłanie\wysyłanie\bin\Debug\wysyłanie.pdb
+C:\Users\MI\documents\visual studio 2010\Projects\wysyłanie\wysyłanie\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MI\documents\visual studio 2010\Projects\wysyłanie\wysyłanie\obj\x86\Debug\wysyłanie.Form1.resources
+C:\Users\MI\documents\visual studio 2010\Projects\wysyłanie\wysyłanie\obj\x86\Debug\wysyłanie.Properties.Resources.resources
+C:\Users\MI\documents\visual studio 2010\Projects\wysyłanie\wysyłanie\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\MI\documents\visual studio 2010\Projects\wysyłanie\wysyłanie\obj\x86\Debug\GenerateResource.write.1.tlog

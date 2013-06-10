@@ -1,0 +1,28 @@
+C:\Users\MI\Documents\Visual Studio 2010\Projects\wysyłanie\wysyłanie\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MI\Documents\Visual Studio 2010\Projects\wysyłanie\wysyłanie\obj\x86\Debug\IMU_data_receive.Properties.Resources.resources
+C:\Users\MI\Documents\Visual Studio 2010\Projects\wysyłanie\wysyłanie\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\MI\Documents\Visual Studio 2010\Projects\wysyłanie\wysyłanie\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\MI\Documents\Visual Studio 2010\Projects\wysyłanie\wysyłanie\bin\Debug\IMU_data_receive.exe
+C:\Users\MI\Documents\Visual Studio 2010\Projects\wysyłanie\wysyłanie\bin\Debug\IMU_data_receive.pdb
+C:\Users\MI\Documents\Visual Studio 2010\Projects\wysyłanie\wysyłanie\obj\x86\Debug\wysyłanie.Form1.resources
+C:\Users\MI\Documents\Visual Studio 2010\Projects\wysyłanie\wysyłanie\obj\x86\Debug\IMU_data_receive.exe
+C:\Users\MI\Documents\Visual Studio 2010\Projects\wysyłanie\wysyłanie\obj\x86\Debug\IMU_data_receive.pdb
+C:\Users\MI\Documents\Visual Studio 2010\Projects\wysyłanie\wysyłanie\obj\x86\Debug\wysyłanie.exe
+C:\Users\MI\Documents\Visual Studio 2010\Projects\wysyłanie\wysyłanie\obj\x86\Debug\wysyłanie.pdb
+C:\Users\MI\Documents\Visual Studio 2010\Projects\IMU_data_receive_GUI\wysyłanie\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MI\Documents\Visual Studio 2010\Projects\IMU_data_receive_GUI\wysyłanie\obj\x86\Debug\wysyłanie.Form1.resources
+C:\Users\MI\Documents\Visual Studio 2010\Projects\IMU_data_receive_GUI\wysyłanie\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\MI\Documents\Visual Studio 2010\Projects\IMU_data_receive_GUI\wysyłanie\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\MI\Documents\Visual Studio 2010\Projects\IMU_data_receive_GUI\wysyłanie\obj\x86\Debug\IMU_data_receive.exe
+C:\Users\MI\Documents\Visual Studio 2010\Projects\IMU_data_receive_GUI\wysyłanie\obj\x86\Debug\IMU_data_receive.pdb
+C:\Users\MI\Documents\Visual Studio 2010\Projects\IMU_data_receive_GUI\wysyłanie\bin\Debug\IMU_data_receive.exe
+C:\Users\MI\Documents\Visual Studio 2010\Projects\IMU_data_receive_GUI\wysyłanie\bin\Debug\IMU_data_receive.pdb
+C:\Users\MI\Documents\Visual Studio 2010\Projects\IMU_data_receive_GUI\wysyłanie\obj\x86\Debug\IMU_data_receive.Properties.Resources.resources
+D:\Pobrane\PTM (1)\PTM\IMU_data_receive_GUI\wysyłanie\obj\x86\Debug\IMU_data_receive.exe
+D:\Pobrane\PTM (1)\PTM\IMU_data_receive_GUI\wysyłanie\obj\x86\Debug\IMU_data_receive.pdb
+D:\Pobrane\PTM (1)\PTM\IMU_data_receive_GUI\wysyłanie\bin\Debug\IMU_data_receive.exe
+D:\Pobrane\PTM (1)\PTM\IMU_data_receive_GUI\wysyłanie\bin\Debug\IMU_data_receive.pdb
+D:\Pobrane\PTM (1)\PTM\IMU_data_receive_GUI\wysyłanie\obj\x86\Debug\IMU_data_receive.csprojResolveAssemblyReference.cache
+D:\Pobrane\PTM (1)\PTM\IMU_data_receive_GUI\wysyłanie\obj\x86\Debug\wysyłanie.Form1.resources
+D:\Pobrane\PTM (1)\PTM\IMU_data_receive_GUI\wysyłanie\obj\x86\Debug\IMU_data_receive.Properties.Resources.resources
+D:\Pobrane\PTM (1)\PTM\IMU_data_receive_GUI\wysyłanie\obj\x86\Debug\IMU_data_receive.csproj.GenerateResource.Cache
